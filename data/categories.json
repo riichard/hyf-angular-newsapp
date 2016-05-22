@@ -10,10 +10,15 @@
 	"cat_name":"Sport"
 
 	},
-	
+
 	{
        "cat_id":3,
 	"cat_name":"Health"
+	},
+
+	{
+       "cat_id":6,
+	"cat_name":"Hack your future"
 	}
 
 ]
