@@ -3,16 +3,16 @@ hyfNews.config(['$routeProvider', function($routeProvider) {
 
     // Route for the home page
     .when('/', {
-        templateUrl: 'pages/index.html',
-        controller: 'myCtrl as newMyCtrl'
+        templateUrl: 'pages/articles.html',
+        controller: 'articlesController'
     })
-    .when('/full/:newsId', {
-        templateUrl: 'pages/full.html',
-        controller: 'fullController'
+    .when('/article/:articleId', {
+        templateUrl: 'pages/article.html',
+        controller: 'articleController'
     })
     .when('/category/:categoryId', {
-        templateUrl: 'pages/category.html',
-        controller: 'categoryController'
+        templateUrl: 'pages/articles.html',
+        controller: 'articlesController'
     })
     .otherwise({
         redirectTo: '/'
