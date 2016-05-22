@@ -22,14 +22,17 @@
                 <div ng-controller="myCtrl as newMyCtrl">
 
                     <ul class="nav nav-tabs">
+                        <li><a href="#/">Home</a>
                         <li ng-repeat="(categoryId, category) in
                             newMyCtrl.categories">
-                            <a data-toggle="tab" href="#/world">
-                                <i class="fa fa-globe fa-2x"></i>  
+                            <a ng-href="#/category/{{
+                                category.cat_id }}">
                                 {{category.cat_name }}
                             </a>
                         </li>
                     </ul>
+
+                    <hr /> 
 
                     <div ng-view></div>
 
