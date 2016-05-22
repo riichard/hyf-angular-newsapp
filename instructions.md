@@ -46,6 +46,7 @@ you can see thios example as lates news [link](http://www.cssglance.com/wp/wp-co
 - [50 Angular examples](https://curran.github.io/screencasts/introToAngular/exampleViewer/#/)
 - [News example without modifications of variable names](https://drive.google.com/open?id=0BzRr-U7aisqpRUlxWUFJanQ4cjg)
 
+- [How to use ng-routes](https://curran.github.io/screencasts/introToAngular/exampleViewer/#/37)
 
 
 
