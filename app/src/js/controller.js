@@ -15,7 +15,7 @@ var hyfNews = angular.module('hyfNews', ['angular.filter', 'ngResource', 'ngRout
         console.log('this', this);
         console.log('$scope', $scope);
 
-        var articles = $scope.$parent.articles;
+        var articles = $scope.$parent.newMyCtrl.articles;
         var articleId = $routeParams.articleId;
         for(var i = 0; i < articles.length; i++) {
             if( articles[i].news_id == articleId) {
